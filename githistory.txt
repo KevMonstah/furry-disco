@@ -1,0 +1,500 @@
+   26  echo "release 1.0" >> version.txt
+   27  git status
+   28  git add .
+   29  git commit -m "release version 1.0"
+   30  git status
+   31  git checkout master
+   32  git status
+   33  git merge dev
+   34  ls
+   35  git log
+   36  git
+   37  git branch
+   38  git checkout -b release
+   39  dir
+   40  mkdir PRODUCT
+   41  cd PRODUCT/
+   42  touch 1.0
+   43  cd ..
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit
+   48  git commit -m "product release 1.0"
+   49  git status
+   50  ls
+   51  git checkout master
+   52  git
+   53  ls
+   54  git merge release
+   55  git log
+   56  git checkout dev
+   57  git rebase master
+   58  ls
+   59  git log
+   60  git checkout master
+   61  git log
+   62  git checkout release
+   63  git log
+   64  dir
+   65  cd PRODUCT/
+   66  dir
+   67  touch 2.0
+   68  cd ..
+   69  git add .
+   70  git commit
+   71  git status
+   72  git commit -m "release 2.0"
+   73  git checkout master
+   74  git merge release
+   75  ls
+   76  ls PRODUCT/
+   77  git checkout dev
+   78  dir
+   79  touch 7.txt
+   80  vi version.txt
+   81  git add .
+   82  git status
+   83  git commit -m "alpha for 3.0"
+   84  git rebase master
+   85  git status
+   86  git log
+   87  ls
+   88  ls PRODUCT/
+   89  git status
+   90  git checkout master
+   91  git status
+   92  dir
+   93  git merge dev
+   94  git status
+   95  git log
+   96  ls
+   97  git checkout release 
+   98  git rebase master
+   99  git status
+  100  ls
+  101  ls PRODUCT/
+  102  git checkout master
+  103  git checkout dev
+  104  git merge master
+  105  git checkout master
+  106  dir
+  107  mkdir MASTER
+  108  cd MASTER
+  109  touch master1
+  110  cd ..
+  111  git add .
+  112  git commit -m "master update 1"
+  113  git checkout dev
+  114  git merge master
+  115  git log
+  116  git checkout release
+  117  git rebase master
+  118  git log
+  119  history
+  120  exit
+  121  history
+  122  cd \MyTemp
+  123  cd \MyTest
+  124  cd /c/MyTemp
+  125  ls
+  126  mkdir GitRemoteConn
+  127  cd GitRemoteConn
+  128  ls
+  129  dir
+  130  ls
+  131  git init
+  132  git remote add origin https://github.com/KevMonstah/MyNewRepo.git
+  133  cd ..
+  134  mkdir GitRemoteCon
+  135  cd GitRemoteCon
+  136  git init
+  137  git clone git@github.com:KevMonstah/MyNewRepo.git
+  138  git remote -v
+  139  cd ../GitRemoteConn
+  140  git remote -v
+  141  cd ../GitRemoteCon
+  142  git push -u origin HEAD
+  143  git remote -v
+  144  git pushd
+  145  dir
+  146  pwd
+  147  cd MyNewRepo/
+  148  ls
+  149  git remote -v
+  150  cd ..
+  151  cd ..
+  152  ls
+  153  cd GitRemoteConn/
+  154  ls
+  155  cd ..
+  156  mkdir GitRemoteCo
+  157  cd GitRemoteCo
+  158  history
+  159  git clone --help
+  160  git help clone
+  161  git clone help
+  162  git clone git@github.com:KevMonstah/MyNewRepo.git
+  163  dir
+  164  cd MyNewRepo/
+  165  git remote -v
+  166  cd ..
+  167  dir
+  168  cd ..
+  169  ls
+  170  rm -rf GitRemoteCo
+  171  dir
+  172  cd GitRemoteCon
+  173  dir
+  174  cd MyNewRepo/
+  175  dir
+  176  git fetch
+  177  dir
+  178  git pull
+  179  dir
+  180  git remote -v
+  181  cd ..
+  182  dir
+  183  cd ..
+  184  cd GitRemoteConn/
+  185  dir
+  186  git fetch
+  187  dir
+  188  git pull
+  189  git pull origin master
+  190  dir
+  191  git pull origin master
+  192  pwd
+  193  dir
+  194  cd ..
+  195  cd GitRemoteCon
+  196  dir
+  197  cd MyNewRepo/
+  198  git pull origin master
+  199  git pull origin main
+  200  dir
+  201  cd ../..
+  202  cd GitRemoteConn
+  203  git pull origin main
+  204  dir
+  205  git status
+  206  git log
+  207  ls
+  208  dir
+  209  mkdir aFolder
+  210  cd aFolder
+  211  touch you
+  212  cd ..
+  213  git status
+  214  git add .
+  215  git commit -m "added aFolder"
+  216  git status
+  217  git log
+  218  git push
+  219  git push -u origin main
+  220  git push --set-upstream origin main
+  221  git push --set-upstream origin master
+  222  git push --set-upstream origin master
+  223  git push -u origin main
+  224  git push -u origin master
+  225  git help
+  226  git config
+  227  git config --global -l
+  228  pwd
+  229  ls
+  230  git remote -v
+  231  history |grep git
+  232  ssh-add
+  233  eval 'ssh-agent -s'
+  234  ssh-add ~/.ssh/id_ed25519
+  235  dir
+  236  cd ..
+  237  dir
+  238  rm -rf GitRemo*
+  239  dir
+  240  mkdir myGitClass
+  241  mv MySoftware* myGitClass/
+  242  cd myGitClass/
+  243  ls
+  244  mkdir GitRemote1
+  245  cd GitRemote1
+  246  clear
+  247  history
+  248  git init
+  249  git remote add origin https://github.com/KevMonstah/MyNewRepo.git
+  250  dir
+  251  git fetch
+  252  dir
+  253  git remote -v
+  254  git log
+  255  git status
+  256  git pull
+  257  git branch --set-upstream-to=origin/main master
+  258  git branch --set-upstream-to=origin/main main
+  259  git remote -v
+  260  git pull -u origin main
+  261  git pull 
+  262  git pull origin main
+  263  dir
+  264  echo "that" >> that.txt
+  265  git add .
+  266  git commit -m "that.txt file"
+  267  git push
+  268  git push --set-upstream origin master
+  269  git push --set-upstream origin master
+  270  git push --set-upstream origin master
+  271  cat ~/.ssh/id_ed25519.pub 
+  272  git push --set-upstream origin master
+  273  git config --edit --system
+  274  git config --edit --system
+  275  gitconfig
+  276  pushd .
+  277  cd 
+  278  pwd
+  279  ls
+  280  ls -a
+  281  cat .gitconfig 
+  282  rm .gitconfig 
+  283  popd
+  284  dir
+  285  git push --set-upstream origin master
+  286  git push --set-upstream origin master
+  287  git config --list
+  288  git config --list --show-origin
+  289  git config --global user.name "Kevin Foley"
+  290  git config --global user.email "kevmonstah@gmail.com"
+  291  git config --global init.defaultBranch main
+  292  which notepad.exe
+  293  git config --global core.editor "/c/Windows/system32/notepad.exe"
+  294  git config --list
+  295  git config --global user.name "kevmonstah"
+  296  git config --edit --system
+  297  git config --edit --global
+  298  git push --set-upstream origin master
+  299  git push --set-upstream origin master
+  300  git push --set-upstream origin master
+  301  dir
+  302  mkdir aFolder
+  303  cd aFolder
+  304  touch me.txt
+  305  cd ..
+  306  git status
+  307  git log
+  308  git add .
+  309  git commit -m "again"
+  310  git push
+  311  dir
+  312  cat .gitignore 
+  313  mkdir AutoGen
+  314  cd AutoGen
+  315  touch this.txt
+  316  cd ..
+  317  git add .
+  318  git status
+  319  git log
+  320  git push
+  321  cd ..
+  322  dir
+  323  mkdir GitRemote2
+  324  history |grep clone
+  325  cd *2
+  326  git clone git@github.com:KevMonstah/MyNewRepo.git
+  327  dir
+  328  cd MyNewRepo/
+  329  die
+  330  dir
+  331  pwd
+  332  cd ..
+  333  cd ..
+  334  cd GitRemote1
+  335  dir
+  336  git push
+  337  dir
+  338  history |grep git
+  339  git push --set-upstream origin master
+  340  git push
+  341  touch you
+  342  git add .
+  343  git commit -m "boo"
+  344  git push
+  345  pwd
+  346  cd ..
+  347  dir
+  348  mkdir GitRemote3 GitRemote4
+  349  cd GitRemote3
+  350  dir
+  351  history |grep https
+  352  cd ../GitRemote4
+  353  git init
+  354  history |grep git clone
+  355  history |grep clone
+  356  git help clone
+  357  git config
+  358  git config --list
+  359  history |grep main
+  360  git help config
+  361  git config --unset init.defaultbranch
+  362  git config --list
+  363  ls
+  364  git clone git@github.com:KevMonstah/aSecondGitTryal.git
+  365  dir
+  366  cd aSecondGitTryal/
+  367  dir
+  368  ls -al
+  369  touch thisissomefile.txt
+  370  git status
+  371  git log
+  372  git add .
+  373  git commit -m "init commit"
+  374  git status
+  375  git log
+  376  git push
+  377  dir
+  378  mkdir aDir
+  379  cd aDir/
+  380  touch me
+  381  cd ..
+  382  git add .
+  383  git commit -m "second committ"
+  384  git push
+  385  git status
+  386  git log
+  387  cd ../..
+  388  dir
+  389  cd *3
+  390  die
+  391  dir
+  392  history |grep origin
+  393  git init
+  394  git remote add origin https://github.com/KevMonstah/aSecondGitTryal.git
+  395  ls
+  396  dit
+  397  dir
+  398  git log
+  399  git status
+  400  git fetch
+  401  ls
+  402  git statu
+  403  git status
+  404  git pull
+  405  git pull origin main
+  406  ls
+  407  dir
+  408  mkdir AutoGen
+  409  cd AutoGen
+  410  touch that
+  411  cd ..
+  412  git status
+  413  mkdir bDir
+  414  cd bDir
+  415  touch it
+  416  cd ..
+  417  git status
+  418  git all .
+  419  git add .
+  420  git commit -m "yours"
+  421  git push
+  422  git push --set-upstream origin main
+  423  git branch --set-upstream-to=origin/main
+  424  git pull --rebase
+  425  git status
+  426  ls
+  427  git push
+  428  git push origin HEAD
+  429  dir
+  430  git branch -m master main
+  431  git push -u origin main
+  432  git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+  433  git branch -a
+  434  git branch -a
+  435  git push origin --delete master
+  436  git branch -a
+  437  git status
+  438  git log
+  439  ls
+  440  ls
+  441  touch thisisanotherfile.txt
+  442  git add .
+  443  git commit -m "go fo it"
+  444  git push
+  445  ls
+  446  cd ..
+  447  cd *4
+  448  ls
+  449  cd aSecondGitTryal/
+  450  ls
+  451  git fetch
+  452  git status
+  453  git log
+  454  git pull
+  455  ls
+  456  touch yourfiletoo.txt
+  457  git add .
+  458  git commit -m "yeah"
+  459  git push
+  460  ls
+  461  cd ..
+  462  dir
+  463  mkdir GitRemote5
+  464  cd GitRemote5
+  465  git init
+  466  history
+  467  git remote add origin https://github.com/KevMonstah/furry-disco
+  468  ls
+  469  git pull
+  470  history |grep pull
+  471  git pull origin main
+  472  ls
+  473  touch thefile.txt
+  474  touch thatfile.txt
+  475  git status
+  476  cat .gitignore 
+  477  mkdir MyStuff
+  478  mkdir MysTuff
+  479  mkdir MyStuffing
+  480  touch thatisit.txt
+  481  cp thatisit.txt MyStuff
+  482  mv thatisit.txt MyStuffing/
+  483  git add .
+  484  git commit -m "initial commit"
+  485  git push
+  486  git push --set-upstream origin main
+  487  git remote set-url origin https://github.com/KevMonstah/furry-disco
+  488  git pull --set-upstream origin main
+  489  git remote -v
+  490  git push
+  491  git push origin HEAD
+  492  git help config
+  493  clear
+  494  history
+  495  git branch -m master main; git push -u origin main
+  496  git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+  497  git push origin --delete master
+  498  git branch -a
+  499  ls
+  500  exit
+  501  history
+  502  dir
+  503  pwd
+  504  cd /c/MyTemp
+  505  ls
+  506  cd myGitClass/
+  507  ls
+  508  history
+  509  history |grep 5
+  510  pwd
+  511  cd ..
+  512  ls
+  513  find . -name GitRemote5 -print
+  514  cd myGitClass/GitRemote4
+  515  ls
+  516  cd GitRemote5/
+  517  ls
+  518  touch fileagain.txt
+  519  git status
+  520  git log
+  521  git add .
+  522  git commit -m "yet again"
+  523  git push
+  524  history
+  525  history >> githistory.txt
